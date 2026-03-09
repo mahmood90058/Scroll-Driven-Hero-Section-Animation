@@ -1,0 +1,16 @@
+function Car({ carRef }) {
+
+  return (
+
+    <img
+      ref={carRef}
+      src="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+      alt="car"
+      className="w-[420px] mb-12 object-contain"
+    />
+
+  )
+
+}
+
+export default Car
